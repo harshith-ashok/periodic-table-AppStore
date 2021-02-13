@@ -10,7 +10,12 @@ class ElementNameorID extends StatelessWidget {
 
   Widget build(BuildContext context) {
     return Card(
-      elevation: 6,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.all(
+          Radius.circular(20),
+        ),
+      ),
+      elevation: 10,
       margin: EdgeInsets.all(15),
       child: ListTile(
         leading: Text(
@@ -18,7 +23,7 @@ class ElementNameorID extends StatelessWidget {
           style: TextStyle(
             //fontFamily: 'Raleway',
             fontSize: 25,
-            fontWeight: FontWeight.normal,
+            fontWeight: FontWeight.w600,
           ),
         ),
         title: Text(

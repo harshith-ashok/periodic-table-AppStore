@@ -14,9 +14,12 @@ class _AboutState extends State<About> {
     return Scaffold(
       body: ListView(
         children: [
-          Text(
-            '\t\t\t\t\t\t\t\tReferences:',
-            style: TextStyle(fontSize: 20),
+          Padding(
+            padding: const EdgeInsets.only(top: 20.0, left: 20.0, right: 20.0),
+            child: Text(
+              'References:',
+              style: TextStyle(fontSize: 20),
+            ),
           ),
           Tile(
             content: 'Images',
@@ -28,9 +31,12 @@ class _AboutState extends State<About> {
             subContent: 'Chemistry ma\'am,LMOIS',
             leadingIco: FontAwesomeIcons.infoCircle,
           ),
-          Text(
-            '\t\t\t\t\t\t\tFind me on:',
-            style: TextStyle(fontSize: 20),
+          Padding(
+            padding: const EdgeInsets.only(top: 20.0, left: 20.0, right: 20.0),
+            child: Text(
+              'Find me on:',
+              style: TextStyle(fontSize: 20),
+            ),
           ),
           Tile(
             content: 'My Website',
@@ -52,9 +58,17 @@ class _AboutState extends State<About> {
             subContent: 'instagram.com/harshith__ashok',
             leadingIco: FontAwesomeIcons.instagram,
           ),
-          Text(
-            '\n\n \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t© Copyright Harshith Ashok 2020',
-            style: TextStyle(fontSize: 15),
+          Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: Text(
+                  '© Copyright Harshith Ashok ',
+                  style: TextStyle(fontSize: 15),
+                ),
+              ),
+            ],
           ),
         ],
       ),
@@ -79,7 +93,13 @@ class Tile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      margin: EdgeInsets.all(10),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.all(
+          Radius.circular(20),
+        ),
+      ),
+      elevation: 6,
+      margin: EdgeInsets.all(6),
       child: ListTile(
         title: Text(
           content,

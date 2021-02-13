@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:periodic_table/content/elements.dart';
 import 'package:periodic_table/main.dart';
+import 'package:periodic_table/screens/home.dart';
 
 class Search extends StatefulWidget {
   @override
@@ -97,7 +98,7 @@ class _SearchState extends State<Search> {
                                   body: ListView(
                                     children: [
                                       SizedBox(
-                                        height: 10,
+                                        height: 6,
                                       ),
                                       CircleAvatar(
                                         backgroundImage: AssetImage(
@@ -107,14 +108,19 @@ class _SearchState extends State<Search> {
                                         backgroundColor: Colors.white,
                                       ),
                                       SizedBox(
-                                        height: 10,
+                                        height: 6,
                                       ),
                                       Card(
+                                        shape: RoundedRectangleBorder(
+                                          borderRadius: BorderRadius.all(
+                                            Radius.circular(20),
+                                          ),
+                                        ),
                                         margin: EdgeInsets.only(
-                                          top: 10.0,
+                                          top: 6.0,
                                           bottom: 20.0,
-                                          left: 10,
-                                          right: 10,
+                                          left: 6,
+                                          right: 6,
                                         ),
                                         elevation: 6,
                                         child: ListTile(
@@ -129,10 +135,15 @@ class _SearchState extends State<Search> {
                                       ),
                                       Card(
                                         margin: EdgeInsets.only(
-                                          top: 10.0,
+                                          top: 6.0,
                                           bottom: 20.0,
-                                          left: 10,
-                                          right: 10,
+                                          left: 6,
+                                          right: 6,
+                                        ),
+                                        shape: RoundedRectangleBorder(
+                                          borderRadius: BorderRadius.all(
+                                            Radius.circular(20),
+                                          ),
                                         ),
                                         elevation: 6,
                                         child: ListTile(
@@ -183,7 +194,7 @@ class _SearchState extends State<Search> {
                                   body: ListView(
                                     children: [
                                       SizedBox(
-                                        height: 10,
+                                        height: 6,
                                       ),
                                       CircleAvatar(
                                         backgroundImage: AssetImage(
@@ -193,14 +204,14 @@ class _SearchState extends State<Search> {
                                         backgroundColor: Colors.white,
                                       ),
                                       SizedBox(
-                                        height: 10,
+                                        height: 6,
                                       ),
                                       Card(
                                         margin: EdgeInsets.only(
-                                          top: 10.0,
+                                          top: 6.0,
                                           bottom: 20.0,
-                                          left: 10,
-                                          right: 10,
+                                          left: 6,
+                                          right: 6,
                                         ),
                                         elevation: 6,
                                         child: ListTile(
@@ -218,7 +229,7 @@ class _SearchState extends State<Search> {
                                         ),
                                       ),
                                       Card(
-                                        margin: EdgeInsets.all(10.0),
+                                        margin: EdgeInsets.all(6.0),
                                         elevation: 6,
                                         child: ListTile(
                                           leading: Text(
@@ -235,7 +246,7 @@ class _SearchState extends State<Search> {
                                         ),
                                       ),
                                       Card(
-                                        margin: EdgeInsets.all(10.0),
+                                        margin: EdgeInsets.all(6.0),
                                         elevation: 6,
                                         child: ListTile(
                                           leading: Text(
@@ -252,7 +263,7 @@ class _SearchState extends State<Search> {
                                         ),
                                       ),
                                       Card(
-                                        margin: EdgeInsets.all(10.0),
+                                        margin: EdgeInsets.all(6.0),
                                         elevation: 6,
                                         child: ListTile(
                                           leading: Text(
@@ -269,7 +280,7 @@ class _SearchState extends State<Search> {
                                         ),
                                       ),
                                       Card(
-                                        margin: EdgeInsets.all(10.0),
+                                        margin: EdgeInsets.all(6.0),
                                         elevation: 6,
                                         child: ListTile(
                                           leading: Text(
@@ -286,7 +297,7 @@ class _SearchState extends State<Search> {
                                         ),
                                       ),
                                       Card(
-                                        margin: EdgeInsets.all(10.0),
+                                        margin: EdgeInsets.all(6.0),
                                         elevation: 6,
                                         child: ListTile(
                                           leading: Text(
@@ -303,7 +314,7 @@ class _SearchState extends State<Search> {
                                         ),
                                       ),
                                       Card(
-                                        margin: EdgeInsets.all(10.0),
+                                        margin: EdgeInsets.all(6.0),
                                         elevation: 6,
                                         child: ListTile(
                                           leading: Text(
@@ -320,7 +331,7 @@ class _SearchState extends State<Search> {
                                         ),
                                       ),
                                       Card(
-                                        margin: EdgeInsets.all(10.0),
+                                        margin: EdgeInsets.all(6.0),
                                         elevation: 6,
                                         child: ListTile(
                                           leading: Text(
@@ -337,7 +348,7 @@ class _SearchState extends State<Search> {
                                         ),
                                       ),
                                       Card(
-                                        margin: EdgeInsets.all(10.0),
+                                        margin: EdgeInsets.all(6.0),
                                         elevation: 6,
                                         child: ListTile(
                                           leading: Text(
@@ -354,7 +365,7 @@ class _SearchState extends State<Search> {
                                         ),
                                       ),
                                       Card(
-                                        margin: EdgeInsets.all(10.0),
+                                        margin: EdgeInsets.all(6.0),
                                         elevation: 6,
                                         child: ListTile(
                                           leading: Text(
