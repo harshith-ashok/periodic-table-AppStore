@@ -12,7 +12,7 @@ class ElementNameorID extends StatelessWidget {
     return Card(
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.all(
-          Radius.circular(20),
+          Radius.circular(10),
         ),
       ),
       elevation: 10,
@@ -21,7 +21,7 @@ class ElementNameorID extends StatelessWidget {
         leading: Text(
           '$eID',
           style: TextStyle(
-            //fontFamily: 'Raleway',
+            fontFamily: 'Raleway',
             fontSize: 25,
             fontWeight: FontWeight.w600,
           ),

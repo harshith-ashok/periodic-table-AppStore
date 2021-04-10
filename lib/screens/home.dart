@@ -51,16 +51,16 @@ class _HomeState extends State<Home> {
                             Card(
                               margin: EdgeInsets.only(
                                 top: 10.0,
-                                bottom: 20.0,
+                                bottom: 10.0,
                                 left: 10,
                                 right: 10,
                               ),
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.all(
-                                  Radius.circular(20),
+                                  Radius.circular(10),
                                 ),
                               ),
-                              elevation: 6,
+                              elevation: 10,
                               child: ListTile(
                                 leading: Text(
                                   '${elementID[index].toString()}',
@@ -78,11 +78,11 @@ class _HomeState extends State<Home> {
                             Card(
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.all(
-                                  Radius.circular(20),
+                                  Radius.circular(10),
                                 ),
                               ),
                               margin: EdgeInsets.all(10.0),
-                              elevation: 6,
+                              elevation: 10,
                               child: ListTile(
                                 leading: Text(
                                   'E',
@@ -100,11 +100,11 @@ class _HomeState extends State<Home> {
                             Card(
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.all(
-                                  Radius.circular(20),
+                                  Radius.circular(10),
                                 ),
                               ),
                               margin: EdgeInsets.all(10.0),
-                              elevation: 6,
+                              elevation: 10,
                               child: ListTile(
                                 leading: Text(
                                   'P',
@@ -122,11 +122,11 @@ class _HomeState extends State<Home> {
                             Card(
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.all(
-                                  Radius.circular(20),
+                                  Radius.circular(10),
                                 ),
                               ),
                               margin: EdgeInsets.all(10.0),
-                              elevation: 6,
+                              elevation: 10,
                               child: ListTile(
                                 leading: Text(
                                   'N',
@@ -144,11 +144,11 @@ class _HomeState extends State<Home> {
                             Card(
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.all(
-                                  Radius.circular(20),
+                                  Radius.circular(10),
                                 ),
                               ),
                               margin: EdgeInsets.all(10.0),
-                              elevation: 6,
+                              elevation: 10,
                               child: ListTile(
                                 leading: Text(
                                   'Z',
@@ -166,11 +166,11 @@ class _HomeState extends State<Home> {
                             Card(
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.all(
-                                  Radius.circular(20),
+                                  Radius.circular(10),
                                 ),
                               ),
                               margin: EdgeInsets.all(10.0),
-                              elevation: 6,
+                              elevation: 10,
                               child: ListTile(
                                 leading: Text(
                                   'A',
@@ -188,11 +188,11 @@ class _HomeState extends State<Home> {
                             Card(
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.all(
-                                  Radius.circular(20),
+                                  Radius.circular(10),
                                 ),
                               ),
                               margin: EdgeInsets.all(10.0),
-                              elevation: 6,
+                              elevation: 10,
                               child: ListTile(
                                 leading: Text(
                                   'Ve',
@@ -210,11 +210,11 @@ class _HomeState extends State<Home> {
                             Card(
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.all(
-                                  Radius.circular(20),
+                                  Radius.circular(10),
                                 ),
                               ),
                               margin: EdgeInsets.all(10.0),
-                              elevation: 6,
+                              elevation: 10,
                               child: ListTile(
                                 leading: Text(
                                   'Ec',
@@ -232,11 +232,11 @@ class _HomeState extends State<Home> {
                             Card(
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.all(
-                                  Radius.circular(20),
+                                  Radius.circular(10),
                                 ),
                               ),
                               margin: EdgeInsets.all(10.0),
-                              elevation: 6,
+                              elevation: 10,
                               child: ListTile(
                                 leading: Text(
                                   'NoE',
@@ -254,11 +254,11 @@ class _HomeState extends State<Home> {
                             Card(
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.all(
-                                  Radius.circular(20),
+                                  Radius.circular(10),
                                 ),
                               ),
                               margin: EdgeInsets.all(10.0),
-                              elevation: 6,
+                              elevation: 10,
                               child: ListTile(
                                 leading: Text(
                                   'NoI',

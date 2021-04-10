@@ -45,13 +45,8 @@ class _AboutState extends State<About> {
           ),
           Tile(
             content: 'YouTube',
-            subContent: 'youtube.com/harshith-ashok',
+            subContent: 'bit.ly/3t8QUDp',
             leadingIco: FontAwesomeIcons.youtube,
-          ),
-          Tile(
-            content: 'Twitter',
-            subContent: 'twitter.com/_harshith_ashok',
-            leadingIco: FontAwesomeIcons.twitter,
           ),
           Tile(
             content: 'Instagram',
@@ -95,11 +90,11 @@ class Tile extends StatelessWidget {
     return Card(
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.all(
-          Radius.circular(20),
+          Radius.circular(10),
         ),
       ),
-      elevation: 6,
-      margin: EdgeInsets.all(6),
+      elevation: 10,
+      margin: EdgeInsets.all(10),
       child: ListTile(
         title: Text(
           content,

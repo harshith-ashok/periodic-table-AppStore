@@ -7,6 +7,7 @@ import 'package:periodic_table/screens/about.dart';
 import 'package:periodic_table/screens/home.dart';
 
 import 'screens/search.dart';
+import 'screens/search.dart';
 
 void main() {
   runApp(MyApp());
@@ -21,6 +22,7 @@ class _MyAppState extends State<MyApp> {
   int _selectedIndex = 0;
   static List _page = [
     Home(),
+    //Search(),
     About(),
   ];
 
@@ -51,7 +53,7 @@ class _MyAppState extends State<MyApp> {
         ),
         body: _page.elementAt(_selectedIndex),
         bottomNavigationBar: BottomNavyBar(
-          itemCornerRadius: 20,
+          itemCornerRadius: 10,
           selectedIndex: _selectedIndex,
           onItemSelected: (index) {
             setState(() => _selectedIndex = index);

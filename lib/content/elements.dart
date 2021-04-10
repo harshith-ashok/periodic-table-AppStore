@@ -11,7 +11,7 @@ List elementName = [
   'Neon',
   'Sodium',
   'Magnesium',
-  'Aluminum',
+  'Aluminium',
   'Silicon',
   'Phosphorus',
   'Sulfur',
